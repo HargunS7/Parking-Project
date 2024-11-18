@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: "Arial", sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+  }
+  
+
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     /* Adjust based on header and footer height */
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+  }
+  
+  /* Container */
+  .signup-container {
+    background: #fff;
+    color: #333;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  
+  /* Form Title */
+  .form-title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #2575fc;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 1.2rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #2575fc;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+  }
+  
+  /* Button */
+  .submit-button {
+    width: 100%;
+    background: #2575fc;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background: #6a11cb;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    main {
+      padding: 1.5rem;
+    }
+  
+    .form-title {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .form-title {
+      font-size: 1.2rem;
+    }
+  }
+  
